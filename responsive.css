@@ -5,7 +5,19 @@
         justify-content: center;
         padding: 10px;
 
-    }.main{
+    }
+    nav h2{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+ul{
+    gap: 20px;
+    font-size: 15px;
+
+}
+    
+    .main{
        flex-direction: column-reverse; 
     padding-top: 40px;
     min-height: auto;
