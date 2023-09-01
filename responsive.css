@@ -1,0 +1,88 @@
+@media screen and (max-width: 780px) {
+    nav{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }.main{
+       flex-direction: column-reverse; 
+    padding-top: 40px;
+    min-height: auto;
+    align-items: center;
+    justify-content: center;
+    }
+    .left{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    } 
+    .right img{
+        height: 200px;
+    }
+    .mainsection{
+        height: auto;
+    }
+    .journey{
+        display: inline-flex;
+        justify-content: center;
+        gap: 20px;
+    
+    }
+    .line{
+        width: 1px;
+    display: inline-block;
+        height: 700px;
+        background-color: white;
+    }
+    .itemContainer{
+        display: inline-flex;
+        margin-top: 80px;
+        flex-direction: column;
+    }
+    .verticalLine{
+        width: 100px;
+        height: 1px;
+        background-color: white;
+    }
+    .item{
+        width: auto;
+    }
+    .projects{
+        width: 100vw;
+       gap: 30px;
+       flex-direction: column;
+        color: white;
+        align-items: center;
+        justify-content: space-between;
+       
+    
+    }
+    .projectLeft{
+        width: 100%;    
+    }
+    .projectLeft h1{
+        width: 100%;
+        font-size: 2.0rem;
+    }
+    
+    
+    
+    .gallery {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      .box1{
+        height: 200px;
+      }
+}
+
+@media screen and (max-width: 375px) {
+
+    .left .btn button {
+        width: 160px;
+        
+    }
+}
