@@ -11,7 +11,7 @@
     cursor: pointer;
 }
 
-ul{
+ul li a{
     gap: 20px;
     font-size: 15px;
 
