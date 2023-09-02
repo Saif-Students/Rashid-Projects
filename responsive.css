@@ -91,11 +91,23 @@ ul li a{
         height: 200px;
       }
 }
+@media screen and (max-width: 480px) {
 
-@media screen and (max-width: 375px) {
+  .about{
+    flex-direction: column;
+  }
+  .umairAbout{
+    flex-direction: column-reverse;
+  }
+  .aboutRight h1, p{
+    text-align: center;
+  }
+}
+@media screen and (max-width: 380px) {
 
     .left .btn button {
         width: 160px;
         
     }
 }
+
